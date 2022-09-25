@@ -326,8 +326,8 @@
       left: 120px;
   }
   .lower-car-left {
-   background-image: url(./lower-point.svg);
    height: 780px;
+  
    margin-top: 100px;
 }
 .lower-car-right {
@@ -831,7 +831,6 @@
    display: block;
 }
 .lower-car-left {
-   background-image: url(./lower-point.svg);
    height: auto;
    width: 100vw;
    /* margin-top: 100px; */
@@ -930,4 +929,5 @@
    padding-left: 5vw;
    background-position: center;
 }
+
  }
