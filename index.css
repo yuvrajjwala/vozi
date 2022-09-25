@@ -181,6 +181,17 @@
 #code{
    margin-bottom: 60px;
 }
+.mob-header{
+   display: flex;
+   width: 100vw;
+   background-image: url(./main-bg-1.png);
+   height: 300px;
+   color: white;
+   flex-direction: column;
+   padding-left: 5vw;
+   
+
+}
 .btn-submit{
    background-color: black;
    border: 3px solid #00FFF0;
@@ -320,17 +331,7 @@
    left: 57px;
    bottom: -100px;
 }
-.mob-header{
-   display: flex;
-   width: 100vw;
-   background-image: url(./giorgio-trovato-z8dTxA6Uq2o-unsplash\ 1.svg);
-   height: 300px;
-   color: white;
-   flex-direction: column;
-   padding-left: 5vw;
-   
 
-}
  }
  .travel-container{
    width: 90vw;
