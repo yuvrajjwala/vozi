@@ -914,4 +914,20 @@
    text-transform: none;
    font-size: 2.4rem;
 }
+.why-drive-us-container {
+   width: 85vw;
+   display: block;
+   margin: auto;
+   margin-top: 100px;
+}
+.mob-header {
+   display: flex;
+   width: 100vw;
+   background-image: url(./main-bg-1.png);
+   height: 750px;
+   color: white;
+   flex-direction: column;
+   padding-left: 5vw;
+   background-position: center;
+}
  }
