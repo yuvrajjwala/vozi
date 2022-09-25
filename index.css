@@ -113,7 +113,7 @@
    color: white;
 }
 .input-form{
-   width: 45vw;
+   width: 35vw;
    max-width: 700px;
    min-width: 400px;
    background-color: white;
@@ -200,7 +200,7 @@
 .heading-content{
    position: absolute;
    width: 450px;
-   bottom: 350px;
+   bottom: 380px;
 }
 .why-drive-with-us{
    padding-top: 400px;
@@ -318,7 +318,7 @@
    margin-left: 4vw;
    margin-top: 200px;
    position: relative;
-   left: 213px;
+   left: 57px;
    bottom: -100px;
 }
  }
@@ -326,13 +326,16 @@
    width: 90vw;
    display: block;
    margin: auto;
-   height: 500px;
+   height: 620px;
    background-image: url(./car-travel.svg);
    background-size: contain;
    background-repeat: no-repeat;
    margin-top: 160px;
    background-position: center;
    background-size: 90vw auto;
+ }
+ .car-travel{
+   background-image: url(./vozi-roadmap.svg);
  }
 .what-need{
    font-family: cf-semi-bold;
@@ -422,7 +425,8 @@
    width: 90vw;
    display: block;
    margin: auto;
-   margin-top: 100px;
+   /* margin-top: 100px; */
+   padding-top: 100px;
 }
 .vozi-raodmap{
    font-size: 2.2rem;
@@ -437,11 +441,14 @@
    display: flex;
    margin-top: 100px;
 }
- .lower-car-left{
-   background-image: url(./lower-point.svg);
-    height: 700px; 
-    /* margin-top: 100px; */
-} 
+.lower-car-left {
+   background-image: url(./ver-points.svg);
+   height: 692px;
+   background-size: auto;
+   background-position: right;
+   width: 60vw;
+   /* margin-top: 100px; */
+}
 .lower-car-left img{
    margin-top: 80px;
 }
@@ -474,6 +481,7 @@
    padding-bottom: 50px;
 }
 .footer-cotainer{
+   margin-right: 10vw;
    display: flex;
    justify-content: space-evenly;
 }
@@ -496,7 +504,17 @@
 }
 #insta img{
    height: 35px;
+   position: relative;
+   top: 3px;
   
+}
+#telegram-img img{
+   height: 29px;
+   position: relative;
+   top: 5px;
+}
+.mob-header{
+   display: none;
 }
 #fb img{
    margin-left: 0px;
@@ -525,7 +543,7 @@
    text-transform: uppercase;
    font-size: 0.9rem;
    margin-top: 100px;
-   padding: 1px 5vw;
+   padding: 1px 8vw;
 }
 .lower-footer ul{
    display: flex;
@@ -535,13 +553,22 @@
 .lower-footer ul li{
    margin-left: 50px;
 }
-#privacy{
-   margin-right: 5vw;
-}
+
 @media screen and (min-width: 1600px) {
    #privacy{
       margin-right: 7vw;
    }
+   .lower-car-left {
+      background-image: url(./ver-points.svg);
+      height: 730px;
+      background-size: auto;
+      background-position: right;
+      width: 64vw;
+      /* margin-top: 100px; */
+  }
+  .lower-car-left img {
+   margin-top: 115px;
+}
  }
 
  @media screen and (max-width: 1000px){
@@ -567,8 +594,9 @@
   }
   .footer-cotainer {
    display: flex;
-   justify-content: left;
+   justify-content: center;
    margin-left: 10vw;
+   text-align: center;
 }
 #app {
    position: relative;
@@ -589,6 +617,9 @@
    justify-content: center;
    flex-wrap: wrap;
    text-align: center;
+   overflow: hidden;
+   background-size: auto;
+   /* background-repeat: no-repeat; */
 }
 .nav{
    flex-wrap: wrap;
@@ -604,6 +635,7 @@
 .lower-car-right {
    /* width: 380px; */
    margin-left: 4vw;
+   overflow: hidden;
    margin-top: 73px;
    width: auto;
    margin-bottom: 30px;
@@ -631,6 +663,7 @@
    border-radius: 0px;
    padding-top: 35px;
    padding-bottom: 11px;
+   margin-top: 250px;
    /* border: 4px solid #00FFF0; */
    position: relative;
    width: 100vw;
@@ -700,6 +733,7 @@
 .app-bg {
    margin-top: 50px;
    margin-right: 4vw;
+   overflow: hidden;
 }
 #tt img{
    margin-right: 110px;
@@ -733,6 +767,7 @@
 .lower-car-left {
    background-image: url(./lower-point.svg);
    height: auto;
+   width: 100vw;
    /* margin-top: 100px; */
 }
 .lower-car-section {
@@ -755,6 +790,9 @@
 .lower-mob li{
    margin-bottom: 10px;
    font-size: 0.9rem;
+   text-align: center;
+   position: relative;
+   right: 23px;
 }
 #copy{
    margin-right: 10vw;
@@ -764,5 +802,41 @@
 }
 .footer-logo img{
    height: 40px;
+}
+.mob-header{
+   display: flex;
+   width: 100vw;
+   background-image: url(./giorgio-trovato-z8dTxA6Uq2o-unsplash\ 1.svg);
+   height: 300px;
+   color: white;
+   flex-direction: column;
+   padding-left: 5vw;
+   
+
+}
+.mob-its{
+   font-size: 1.7rem;
+   font-family: cf-thin;
+   margin-top: 50px;
+   width: 80vw;
+   margin-bottom: 15px;
+}
+.mob-its span{
+   font-family: cf-semi-bold;
+   
+}
+.mob-make{
+   font-family: cf-normal;
+   width: 80vw;
+}
+.smal-box-container{
+   overflow: hidden;
+}
+.theApp{
+   font-size: 2rem;
+   padding-bottom: 10px;
+}
+#app{
+   overflow: hidden;
 }
  }
