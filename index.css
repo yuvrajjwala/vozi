@@ -278,7 +278,6 @@
 }
 .taxi-div{
    padding-top: 50px;
-   /* background-image: url(./ver-points.svg); */
    width: 100%;
    height: 1000px;
    background-position: right;
@@ -320,6 +319,17 @@
    position: relative;
    left: 57px;
    bottom: -100px;
+}
+.mob-header{
+   display: flex;
+   width: 100vw;
+   background-image: url(./giorgio-trovato-z8dTxA6Uq2o-unsplash\ 1.svg);
+   height: 300px;
+   color: white;
+   flex-direction: column;
+   padding-left: 5vw;
+   
+
 }
  }
  .travel-container{
@@ -777,6 +787,9 @@
    margin-right: 5px;
    margin-left: 10px;
 }
+.mob-header{
+   display: block;
+}
 #join-comm{
    margin-left: -11px;
 }
@@ -829,17 +842,7 @@
 .footer-logo img{
    height: 40px;
 }
-.mob-header{
-   display: flex;
-   width: 100vw;
-   background-image: url(./giorgio-trovato-z8dTxA6Uq2o-unsplash\ 1.svg);
-   height: 300px;
-   color: white;
-   flex-direction: column;
-   padding-left: 5vw;
-   
 
-}
 .mob-its{
    font-size: 1.7rem;
    font-family: cf-thin;
