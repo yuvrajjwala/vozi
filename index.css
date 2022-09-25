@@ -185,10 +185,11 @@
    display: flex;
    width: 100vw;
    background-image: url(./main-bg-1.png);
-   height: 300px;
+   height: 850px;
    color: white;
    flex-direction: column;
    padding-left: 5vw;
+   background-position: center;
    
 
 }
@@ -264,6 +265,12 @@
    width: 60vw;
    height: 100%;
    top: 0;
+}
+.car-mobile{
+   display: none;
+   margin: auto;
+   width: 90vw;
+   max-width: 450px;
 }
 .vizifund-btn{
    border: 2px solid #00FFF0;
@@ -654,7 +661,14 @@
    margin-bottom: 30px;
 }
 .vozi-raodmap{
-   width: auto;
+   width: 75vw;
+   font-size: 1.5rem;
+   margin-bottom: 50px;
+   padding-bottom: 13px;
+   text-align: center;
+   display: block;
+   margin: auto;
+   margin-bottom: 50px;
 }
 .lower-car-right {
    /* width: 380px; */
@@ -663,6 +677,9 @@
    margin-top: 73px;
    width: auto;
    margin-bottom: 30px;
+}
+#verticle-roadmap{
+   width: 90vw;
 }
 .lower-footer ul {
    display: flex;
@@ -690,7 +707,8 @@
    margin-top: 250px;
    /* border: 4px solid #00FFF0; */
    position: relative;
-   width: 100vw;
+   width: 90vw;
+   border-radius: 10px;
    border: none;
 }
 #download-btn:hover{
@@ -755,7 +773,12 @@
    padding-top: 10px;
 }
 .left-taxi-div {
-   margin-left: 3%;
+   display: block;
+   margin: auto;
+   text-align: center;
+}
+.requirement{
+   width: auto;
 }
 .taxi-div{
    overflow: hidden;
@@ -804,11 +827,23 @@
 .car-travel{
    display: none;
 }
+.car-mobile{
+   display: block;
+}
 .lower-car-left {
    background-image: url(./lower-point.svg);
    height: auto;
    width: 100vw;
    /* margin-top: 100px; */
+}
+.easy-to {
+   padding-bottom: 10px;
+   font-size: 1rem;
+   font-family: cf-semi-bold;
+   letter-spacing: 0.6px;
+   position: relative;
+   top: 15px;
+   padding-top: 5px;
 }
 .lower-car-section {
    display: flex;
@@ -868,6 +903,9 @@
 }
 #app{
    overflow: hidden;
+}
+.bg-main{
+   display: none;
 }
 .become-driver {
    font-weight: bold;
