@@ -345,7 +345,7 @@
    display: block;
    margin: auto;
    height: 620px;
-   background-image: url(./car-travel.svg);
+   background-image: url(./roadmap.svg);
    background-size: contain;
    background-repeat: no-repeat;
    margin-top: 160px;
@@ -353,7 +353,7 @@
    background-size: 90vw auto;
  }
  .car-travel{
-   background-image: url(./vozi-1roadmap.svg);
+   /* background-image: url(./roadmap.svg); */
  }
 .what-need{
    font-family: cf-semi-bold;
